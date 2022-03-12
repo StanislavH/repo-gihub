@@ -1,0 +1,42 @@
+cd C:/Users/user/my_project
+git init
+git add *.c
+git add LICENSE
+git commit -m 'Initial project version'
+git remote add pb https://github.com/paulboone/ticgit
+git remote -v
+
+git clone https://github.com/libgit2/libgit2
+git clone https://github.com/libgit2/libgit2 mylibgit
+
+
+
+
+git status
+git add <file>
+git commit
+git commit -m 'commit message'
+
+
+ничего не удаляется(лучше не выходить из редакторов)
+git log - история коммитов 
+git reset <hash> - удалить коммит(восстановить коммит)
+git reflog - история всех операций в репозитории
+git revert - создает новый коммит с отменой изменений
+git restore - сброс состояния файла на указанное 
+
+Изоляция своих изменений от общих
+git branch - просмотр веток
+git branch dev - создать ветку dev
+git branch dev master - создать ветку dev на основе ветки master
+git checkout dev - переключиться на ветку dev
+git checkout -b dev-test - создает и переходит-b
+
+ 
+
+.gitkeep
+сохраняет пустые директории - добавлять этот файл в дирректории
+
+
+.gitignore
+Создать файл в корне и записывать имена игнорируемых файлов
