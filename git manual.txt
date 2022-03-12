@@ -48,3 +48,5 @@ git fetch 							- обновить данные
 git merge dev - слить изменения в ветку мастер
 git push	- выгрузить
 git push --delete master-branch-name branches_names - удалить ветки в удаленном репозитории
+git rebase master-branch-name - сместить базу текущей ветки на последний комит указанной ветки
+git push --force	- выгрузить
