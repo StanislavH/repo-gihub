@@ -50,3 +50,11 @@ git push	- выгрузить
 git push --delete master-branch-name branches_names - удалить ветки в удаленном репозитории
 git rebase master-branch-name - сместить базу текущей ветки на последний комит указанной ветки
 git push --force	- выгрузить
+
+Версии
+git tag --list
+git tag 1.0.0 - создать версию с номером ... 
+git push --tags
+
+git tag -d 1.0.1
+git push --delete master-branch-name 1.0.1
